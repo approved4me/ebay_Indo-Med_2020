@@ -1,8 +1,11 @@
 *,
-*:before,
-*:after {
+*::before,
+*::after {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
 
 
 body {
@@ -106,43 +109,35 @@ section {
 }
 
 .logo {
-    height: 100px;
+    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 
-.basic-menu {
-    box-sizing: border-box;
+.my-menu {
+    background: #f2f2f2;
+    max-width: 100%;
     height: 60px;
-    background-color: #f2f2f2;
-    text-align: center;
-    /*
     display: flex;
     justify-content: center;
-    align-items: flex-end;
-    overflow: hidden;*/
-}
-
-
-.basic-menu li {
+    align-items: center;
     list-style-type: none;
-    padding-right: 35px;
-    text-decoration: none;
-    display: inline-block;
+
 }
 
-.basic-menu li a {
+.my-menu li a {
     color: #333;
     text-transform: uppercase;
     letter-spacing: 1.3;
     font-size: 18px;
-    line-height: 60px;
-    display: inline-block;
+    text-decoration: none;
+    padding: 19px 20px;
+    margin-right: 20px;
 }
 
-.basic-menu a:hover {
+.my-menu a:hover {
     text-decoration: underline;
 }
 
@@ -159,17 +154,15 @@ section {
     font-weight: lighter;
 }
 
-
-
 .kostenloser-versand p {
-    padding: 10px 0px 10px 0px;
+    margin: 10px 0;
+    padding: 5px 0;
     font-size: 12px;
     font-weight: 500;
     letter-spacing: 0.8px;
     border-bottom: 1px solid #f2f2f2;
     border-top: 1px solid #f2f2f2;
 }
-
 
 .sofort-kaufen {
     width: 100%;

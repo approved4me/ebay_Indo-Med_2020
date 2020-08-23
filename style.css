@@ -152,6 +152,8 @@ section {
     border-bottom: 1px solid #f2f2f2;
     font-size: 13px;
     font-weight: lighter;
+    padding-bottom: 2px;
+    margin-bottom: 1rem;
 }
 
 .kostenloser-versand p {

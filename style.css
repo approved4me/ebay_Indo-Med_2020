@@ -1,16 +1,12 @@
 *,
-*::before,
-*::after {
+*:before,
+*:after {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
 }
 
 
-
 body {
-    /*    font-family: 'Raleway', sans-serif;*/
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 16px;
     font-weight: 200;
     color: DarkSlateGray;
@@ -23,6 +19,9 @@ a {
     background-color: transparent;
 }
 
+a:hover {
+    text-decoration: underline;
+}
 
 fa {
     display: inline-block;
@@ -38,7 +37,7 @@ fa {
 }
 
 .fa-check-circle {
-    font-size: 15px;
+    font-size: 1em;
     padding-right: 15px;
     color: #000000;
 }
@@ -62,9 +61,10 @@ fa {
 
 .row {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 
+/*
 .col-md-6 {
     flex: 0 0 50%;
     max-width: 50%;
@@ -90,6 +90,7 @@ fa {
     padding-right: 15px;
     padding-left: 15px;
 }
+*/
 
 section {
     display: block;
@@ -108,63 +109,65 @@ section {
     height: auto;
 }
 
+.kurze-beschreibung h2 {
+    margin-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.kurze-beschreibung p {
+    border-bottom: 1px solid #f2f2f2;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3em;
+    font-weight: lighter;
+}
+
+
 .logo {
-    height: 150px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 
-.my-menu {
-    background: #f2f2f2;
-    max-width: 100%;
+.basic-menu {
+    width: 100%;
     height: 60px;
+    background-color: #f2f2f2;
     display: flex;
     justify-content: center;
     align-items: center;
-    list-style-type: none;
-
 }
 
-.my-menu li a {
+
+.basic-menu li {
+    list-style-type: none;
+    padding-right: 35px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.basic-menu li a {
     color: #333;
     text-transform: uppercase;
     letter-spacing: 1.3;
     font-size: 18px;
-    text-decoration: none;
-    padding: 19px 20px;
-    margin-right: 20px;
-}
-
-.my-menu a:hover {
-    text-decoration: underline;
-}
-
-
-.produkt-beschreibung h2 {
-    margin-top: 50px;
-    font-size: 22px;
-    margin-bottom: 20px;
-}
-
-.produkt-beschreibung p {
-    border-bottom: 1px solid #f2f2f2;
-    font-size: 13px;
-    font-weight: lighter;
-    padding-bottom: 2px;
-    margin-bottom: 1rem;
 }
 
 .kostenloser-versand p {
-    margin: 10px 0;
-    padding: 5px 0;
+    padding: 10px 0px 10px 0px;
+    font-family: 'Montserrat', sans-serif;
     font-size: 12px;
     font-weight: 500;
     letter-spacing: 0.8px;
     border-bottom: 1px solid #f2f2f2;
     border-top: 1px solid #f2f2f2;
 }
+
 
 .sofort-kaufen {
     width: 100%;
@@ -191,11 +194,11 @@ section {
 
 
 .artikel-beschreibung h2 {
-    font-size: 14px;
+    font-size: 1.2em;
+    font-weight: normal;
     background-color: #f2f2f2;
-    width: 320px;
+    width: 360px;
     margin: 0px auto;
-    margin-top: 0px;
     padding: 20px 20px;
     letter-spacing: 1.2px;
     margin-top: 40px;
@@ -205,6 +208,7 @@ section {
 
 .artikel-beschreibung p {
     margin-top: 0px;
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     letter-spacing: 0.4px;
     text-align: left;
@@ -215,6 +219,7 @@ section {
 }
 
 .services h1 {
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     background-color: #f2f2f2;
     width: 320px;
@@ -228,13 +233,13 @@ section {
 }
 
 .services-icons {
-    /*    background-color: #f2f2f2;*/
-    background-color: #cbd2b0;
+    background-color: #f2f2f2;
     padding-bottom: 70px;
     padding-top: 30px;
 }
 
 .services p {
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     line-height: 1.6;
     padding: 0px 10px;
@@ -247,6 +252,7 @@ section {
 }
 
 .weitere-artikel-im-shop h1 {
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     background-color: #f2f2f2;
     width: 320px;
@@ -273,6 +279,7 @@ section {
 }
 
 .cross-selling h2 {
+    font-family: 'Montserrat', sans-serif;
     font-size: 26px;
     color: #363434;
     margin-bottom: 50px;
@@ -280,6 +287,7 @@ section {
 
 .cross-selling h4 {
     margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     letter-spacing: 0.5px;
 }
@@ -290,14 +298,14 @@ section {
 
 
 .newsletter {
-    /*    background-color: #F2f2f2;*/
-    background-color: #f4ecdc;
+    background-color: #F2f2f2;
     padding: 40px 0px;
     border-bottom: 1.5px dashed #000000;
 }
 
 
 .newsletter h3 {
+    font-family: 'Montserrat', sans-serif;
     font-size: 24px;
 }
 
@@ -306,23 +314,25 @@ section {
     background-color: #080A0D;
     padding: 15px 60px;
     border-radius: 33px;
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     letter-spacing: 0.8px;
 }
 
 .newsletter p {
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     padding-bottom: 20px;
 }
 
 .footer {
-    background-color: #f4ecdc;
-    padding-bottom: 50px;
+    background-color: #f2f2f2;
 }
 
 
 .footer h3 {
     padding-top: 100px;
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     color: #807E7E;
     border-bottom: 1px solid #807e7e;
@@ -333,6 +343,7 @@ section {
 
 .footer p {
     text-align: left;
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     color: #807e7e;
     margin-top: 30px;
@@ -348,6 +359,7 @@ section {
 
 
 .footer li a {
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     color: #807e7e;
 }

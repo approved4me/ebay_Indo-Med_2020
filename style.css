@@ -9,7 +9,6 @@ body {
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
     font-weight: 200;
-    color: DarkSlateGray;
 }
 
 
@@ -52,7 +51,6 @@ fa {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-    /*    background-color: lightgoldenrodyellow;*/
 }
 
 .container-fluid {
@@ -166,7 +164,7 @@ section {
     padding: 10px 0px 10px 0px;
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
-    font-weight: 500;
+    font-weight: 300;
     letter-spacing: 0.8px;
     border-bottom: 1px solid #f2f2f2;
     border-top: 1px solid #f2f2f2;
@@ -219,7 +217,6 @@ section {
     text-align: left;
     border: 1px solid #f2f2f2;
     padding: 20px 10px 20px 10px;
-    color: #5F5E5E;
     margin-bottom: 1rem;
 }
 
@@ -249,7 +246,6 @@ section {
     font-size: 14px;
     line-height: 1.6;
     padding: 10px 10px;
-    color: #5F5E5E;
     text-align: left;
     padding-bottom: 20px;
     border: none;

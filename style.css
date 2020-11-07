@@ -59,18 +59,22 @@ fa {
     margin-left: auto;
 }
 
-.row {
+.row.display-flex {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.row.display-flex > [class*='col-'] {
+    flex-grow: 1;
 }
 
 /*
 .col-md-6 {
     flex: 0 0 50%;
-    max-width: 50%;
     position: relative;
     width: 100%;
     padding-right: 15px;
+    padding-left: 15px;
 }
 
 .col-md-4 {
@@ -196,7 +200,7 @@ section {
 
 
 .services h2 {
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: 300;
     background-color: #f2f2f2;
     max-width: 320px;

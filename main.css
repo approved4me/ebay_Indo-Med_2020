@@ -1,0 +1,179 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+section {
+    width: 100%;
+    max-width: 1140px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.logo {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+}
+
+.col {
+    flex: 1 0 49%;
+    display: flex;
+    flex-direction: column;
+    /*    background-color: lightgreen;*/
+    /*    border: 1px dashed black;*/
+    margin: 5px;
+}
+
+
+.fa-check-circle,
+.fa-arrow-alt-circle-right {
+    font-size: .8em;
+    padding-right: 5px;
+}
+
+.kostenloser-versand {
+    width: 100%;
+}
+
+.kostenloser-versand p {
+    padding: 10px 0px 10px 0px;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0.8px;
+    border-bottom: 1px solid #f2f2f2;
+    border-top: 1px solid #f2f2f2;
+    text-align: center;
+}
+
+
+.art-bild {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.art-bild img {
+    max-width: 100%;
+    height: auto;
+    align-self: center;
+}
+
+.kurze-beschreibung {
+    align-items: baseline;
+}
+
+.kurze-beschreibung h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.kurze-beschreibung p {
+    border-bottom: 1px solid #f2f2f2;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: lighter;
+}
+
+.beschreibung h2 {
+    max-width: 320px;
+    margin: 0px auto;
+    margin-top: 40px;
+    border-bottom: 2px solid #000000;
+    padding: 15px 20px;
+    background-color: #f2f2f2;
+    font-size: 1em;
+    font-weight: 300;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.beschreibung p {
+    line-height: 1.5;
+    font-size: .9em;
+    letter-spacing: 0.4px;
+    padding: 20px 10px 20px 10px;
+    margin-bottom: 1rem;
+}
+
+.text {
+    flex: 1;
+    margin-top: 0px;
+    border: 1px solid #f2f2f2;
+}
+
+.vorteile {
+    margin-bottom: 30px;
+}
+
+.vorteile .text {
+    background-color: #f4ecdc;
+    border: 1px solid #ccc;
+}
+
+.vorteile h3 {
+    margin: 0;
+    background-color: #ecdbc1;
+    margin-top: 30px;
+    border: 1px solid #ccc;
+    border-width: 1px 1px 0px 1px;
+    border-bottom: 1px solid #000000;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+
+.vorteile .icon {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.vorteile p {
+    font-size: 14px;
+    line-height: 1.6;
+    padding: 10px 10px;
+    text-align: left;
+    padding-bottom: 20px;
+
+}
+
+
+@media only screen and (min-width: 768px) {
+
+    /*    For desktop:*/
+    .row {
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .bild-kurz .row {
+        align-items: center;
+    }
+
+    .col {
+        /*        width: 50%;*/
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+}

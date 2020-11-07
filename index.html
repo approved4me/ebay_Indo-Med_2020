@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="http://indo-med.de/ebay/css/style2.css">
@@ -17,29 +18,16 @@
         <div class="container logo"><img alt="Indo-Med Logo" class="img-fluid" src="img/logo.svg"></div>
     </section>
 
-    <!-- NAVIGATION -->
-    <!--
-    <section class="basic-navigation">
-        <div class="container-fluid basic-menu">
-            <ul>
-                <li><a href="#"><i class="fa fa-home"></i></a><br></li>
-                <li><a href="#">Shop</a></li>
-                <li><a href="#">Bewertungen</a></li>
-                <li><a href="#">Über Uns</a></li>
-                <li><a href="#">Kontakt</a></li>
-            </ul>
-        </div>
-    </section>
--->
     <div class="container text-center kostenloser-versand">
         <p><i class="fa fa-check-circle"></i>Kostenloser Versand für alle Artikel!</p>
     </div>
 
 
     <div class="container">
-        <div class="row">
-            <div class="art-bild"><img alt="Produkt Bild" class="img-fluid" src="https://i.ebayimg.com/images/g/fAUAAOSwrptflW4o/s-l500.jpg" width="520" height="520"></div>
-            <div class="kurze-beschreibung">
+        <div class="row ">
+            <div class="art-bild col-md-6"><img alt="Produkt Bild" class="img-fluid" src="https://i.ebayimg.com/images/g/fAUAAOSwrptflW4o/s-l500.jpg" width="520" height="520">
+            </div>
+            <div class="kurze-beschreibung col-md-6">
                 <h2>Mörser &amp; Stößel aus Olivenholz</h2>
                 <p><i class="far fa-arrow-alt-circle-right"></i>Höhe: 8-9 cm, Durchmesser: 14 cm</p>
                 <p><i class="far fa-arrow-alt-circle-right"></i>Lieferung: 1 Mörser und 1 Stößel</p>
@@ -48,52 +36,55 @@
             </div>
         </div>
     </div>
+    <div class="container">
+        <div class="row display-flex">
+            <div class="container text-center services col-md-6 ">
+                <h2>Artikelbeschreibung</h2>
+                <p>
+                    Dieser, in Handarbeit hergestellte, Mörser eignet sich perfekt zum Servieren von Keksen, Nüssen und Gewürzen/Kräutern oder einfach als Dekoobjekt einzeln oder mit z.B. Trockenblumen. Holen Sie sich das maritime Flair in Ihr Heim.
+                    <br>
+                    <br>
+                    Auf Grund von möglichen kleinen Rissen im Mörser oder im Stößel empfehlen wir den Mörser nicht zum Zubereiten von Pestos etc zu verwenden
+                </p>
+            </div>
 
-    <div class="container text-center services">
-        <h2>Artikelbeschreibung</h2>
-        <p>
-            Dieser, in Handarbeit hergestellte, Mörser eignet sich perfekt zum Servieren von Keksen, Nüssen und Gewürzen/Kräutern oder einfach als Dekoobjekt einzeln oder mit z.B. Trockenblumen. Holen Sie sich das maritime Flair in Ihr Heim.
-            <br>
-            <br>
-            Auf Grund von möglichen kleinen Rissen im Mörser oder im Stößel empfehlen wir den Mörser nicht zum Zubereiten von Pestos etc zu verwenden
-        </p>
-    </div>
-
-    <div class="container text-center services">
-        <h2>Pflegeanleitung</h2>
-        <p>
-            Einfach mit einem Schwamm und warmen Wasser mit etwas Spüli säubern
-            <br>
-            <br>
-            Olivenholzprodukte bitte nicht in dem Geschirrspüler reinigen
-            <br>
-            <br>
-            Ab und zu mit ein paar Tropfen Olivenöl einreiben
-        </p>
+            <div class="container text-center services col-md-6">
+                <h2>Pflegeanleitung</h2>
+                <p>
+                    Einfach mit einem Schwamm und warmen Wasser mit etwas Spüli säubern
+                    <br>
+                    <br>
+                    Olivenholzprodukte bitte nicht in dem Geschirrspüler reinigen
+                    <br>
+                    <br>
+                    Ab und zu mit ein paar Tropfen Olivenöl einreiben
+                </p>
+            </div>
+        </div>
     </div>
 
     <div class="container-fluid">
         <div class="container vorteile">
             <div class="row">
-                <div class="text-center">
+                <div class="text-center col-md-6">
                     <h3>Kostenloser Versand</h3>
                     <div class="vorteile-icons"><img alt="icon-services" class="img-fluid" src="img/icon_versand.svg" width="80" height="80">
                         <p>Der Versand erfolgt per Deutsche Post als Brief oder Warensendung oder als versicherter Versand per DPD. Die Lieferung erfolgt an die beí Ebay hinterlegte Lieferanschrift. Keine Lieferungen an Packstationen oder Postfilialen.</p>
                     </div>
                 </div>
-                <div class="text-center">
+                <div class="text-center col-md-6">
                     <h3>Zahlung</h3>
                     <div class="vorteile-icons"><img alt="icon-services" class="img-fluid" src="img/icon_zahlung.svg" width="80" height="80">
                         <p>Zahlung per Überweisung , per PayPal, Gogle Pay, Visa, Master Card, Amex, Lastschrift oder Sofortüberweisung möglich.</p>
                     </div>
                 </div>
-                <div class="text-center">
+                <div class="text-center col-md-6">
                     <h3>Rückgaben</h3>
                     <div class="vorteile-icons"><img alt="icon-services" class="img-fluid" src="img/icon_rueckgabe.svg" width="80" height="80">
                         <p>Unkomplizierte Rückgaben innerhalb eines Monats ohne Angabe von Gründen möglich.</p>
                     </div>
                 </div>
-                <div class="text-center">
+                <div class="text-center col-md-6">
                     <h3>Informationen</h3>
                     <div class="vorteile-icons"><img alt="icon-services" class="img-fluid" src="img/icon_info.svg" width="80" height="80">
                         <p>Wir würden uns über eine gute Bewertung freuen. Falls Sie aus irgendeinem Grund nicht zufrieden sein sollten, kontaktieren Sie uns bitte bevor Sie eine Bewertung abgeben. Wir sind uns 100 % SICHER dass wir gemeinsam eine Lösung finden werden.</p>
@@ -105,6 +96,4 @@
 
 
 
-</body>
-
-</html>
+</body></html>

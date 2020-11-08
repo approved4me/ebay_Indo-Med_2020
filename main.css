@@ -58,6 +58,19 @@ section {
 }
 
 
+.urlaub {
+    border: 3px dashed red;
+    color: red;
+}
+
+.urlaub p {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 200;
+    margin: 0;
+    padding: 10px;
+}
+
 .art-bild {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -92,6 +105,7 @@ section {
 
 ul.icon {
     list-style-type: none;
+    padding-left: 1.6em;
 }
 
 ul.icon li {

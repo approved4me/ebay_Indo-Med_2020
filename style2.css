@@ -1,12 +1,14 @@
-
-.datum01::after { 
+.datum01::after {
     font-weight: 400;
-    content: "20.07.2017";
+    content: "01.07.2021";
 }
-.datum02::after { 
+
+.datum02::after {
     font-weight: 400;
-    content: "22.08.2017";
+    content: "30.07.2021";
 }
 
 .hide {
-  display: none;
+    display: block;
+    /*    display: none;*/
+    /*    display: block;*/

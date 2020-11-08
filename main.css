@@ -33,8 +33,6 @@ section {
     flex: 1 0 49%;
     display: flex;
     flex-direction: column;
-    /*    background-color: lightgreen;*/
-    /*    border: 1px dashed black;*/
     margin: 5px;
 }
 
@@ -85,10 +83,36 @@ section {
 }
 
 .kurze-beschreibung p {
+    display: inline-block;
+    width: 100%;
     border-bottom: 1px solid #f2f2f2;
-    font-family: 'Montserrat', sans-serif;
     font-size: 1em;
     font-weight: lighter;
+}
+
+ul.icon {
+    list-style-type: none;
+}
+
+ul.icon li {
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+    border-bottom: 1px solid #f2f2f2;
+    font-size: 1em;
+    font-weight: lighter;
+    line-height: 2em;
+    text-indent: -1.6em;
+}
+
+
+ul.icon li:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f35a";
+    float: left;
+    width: 2em;
+    font-size: .8em;
+    padding: 0 10px 0 0;
 }
 
 .beschreibung h2 {

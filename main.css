@@ -98,8 +98,7 @@ section {
 .kurze-beschreibung p {
     display: inline-block;
     width: 100%;
-    border-bottom: 1px solid #f2f2f2;
-    font-size: 1em;
+    font-size: .8em;
     font-weight: lighter;
 }
 

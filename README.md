@@ -1,2 +1,2 @@
-# ebay_IM_2020
+# ebay_Indo-Med_2020
 eBay für Indo Med
